@@ -46,3 +46,6 @@ Added Rating column in the database table using ""Add-Migration Rating"" and "Up
 
 202501282207
 Adding validation to the project based on Part 9 of the tutorial.
+
+202501290920
+Created GitHub account and use GitHub as my repository for this project.
