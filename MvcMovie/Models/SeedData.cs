@@ -51,6 +51,46 @@ public static class SeedData
                     Genre = "Western",
                     Rating = "R",
                     Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "Tangled",
+                    ReleaseDate = DateTime.Parse("2010-11-14"),
+                    Genre = "Animation",
+                    Rating = "GP",
+                    Price = 4.99M
+                },
+                new Movie
+                {
+                    Title = "Baymax",
+                    ReleaseDate = DateTime.Parse("2022-6-22"),
+                    Genre = "Animation",
+                    Rating = "GP",
+                    Price = 4.99M
+                },
+                new Movie
+                {
+                    Title = "Frozen",
+                    ReleaseDate = DateTime.Parse("2013-11-19"),
+                    Genre = "Animation",
+                    Rating = "GP",
+                    Price = 5.99M
+                },
+                new Movie
+                {
+                    Title = "Frozen 2",
+                    ReleaseDate = DateTime.Parse("2019-11-7"),
+                    Genre = "Animation",
+                    Rating = "GP",
+                    Price = 6.99M
+                },
+                new Movie
+                {
+                    Title = "Elemental",
+                    ReleaseDate = DateTime.Parse("2023-6-16"),
+                    Genre = "Animatin",
+                    Rating = "gp",
+                    Price = 7.99M
                 }
             );
             context.SaveChanges();
